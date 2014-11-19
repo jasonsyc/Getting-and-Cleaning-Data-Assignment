@@ -17,7 +17,7 @@ Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names. 
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Good luck!
+**Good luck!**
 ======================================================================================================================
 
 This R script (run_analysis.R) performs the following steps, according to the above instructions:
@@ -32,6 +32,8 @@ This R script (run_analysis.R) performs the following steps, according to the ab
 The script assumes that you have downloaded and unzipped the data into a folder called UCI HAR Dataset. 
 Run the following R scirpt in either the R Console or R Studio:
 
-source('download_corpus.R')
+source('run_analysis.R')
 
 The final result or output will be in a file called 'tidydataset.txt' in the working folder.
+
+For easy reference - tidydataset.csv was created. 
