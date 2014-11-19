@@ -10,7 +10,7 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
- You should create one R script called run_analysis.R that does the following. 
+You should create one R script called run_analysis.R that does the following. 
 Merges the training and the test sets to create one data set.
 Extracts only the measurements on the mean and standard deviation for each measurement. 
 Uses descriptive activity names to name the activities in the data set
@@ -18,3 +18,20 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Good luck!
+======================================================================================================================
+
+This R script (run_analysis.R) performs the following steps, according to the above instructions:
+
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive activity names.
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+   how to download the original data
+
+The script assumes that you have downloaded and unzipped the data into a folder called UCI HAR Dataset. 
+Run the following R scirpt in either the R Console or R Studio:
+
+source('download_corpus.R')
+
+The final result or output will be in a file called 'tidydataset.txt' in the working folder.
