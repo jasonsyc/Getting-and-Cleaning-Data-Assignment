@@ -34,5 +34,7 @@ Run the following R scirpt in either the R Console or R Studio:
 source('run_analysis.R')
 
 The final result or output will be in a file called 'tidydataset.txt' in the working folder.
-
 For easy reference - tidydataset.csv was created. 
+
+Tidy Data Set 
+The result or output data set is located in the file -> tidydataset.txt. It contains one row for each subject or activity pair and columns for subject, activity, and each feature that was a mean or standard deviation from the original dataset.
