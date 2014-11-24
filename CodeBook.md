@@ -24,7 +24,8 @@ Please refer to run_analysis.R for implementation details
 *Variables*
 
 subjectId: 1 to 30 each representing a participant in the study
-activity: the activity that the subject was doing at the time of the measurement
+activity: the activity that the subject was doing at the time of the measurement:
+
 tBodyAcc-mean-X
 tBodyAcc-mean-Y
 tBodyAcc-mean-Z
